@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              TextField(
+              TextFormField(
                 controller: _nameCtl,
                 decoration: InputDecoration(
                   border: const OutlineInputBorder(),
@@ -46,7 +46,7 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               const SizedBox(height: 8.0),
-              TextField(
+              TextFormField(
                 controller: _numberCtl,
                 keyboardType: TextInputType.number,
                 decoration: InputDecoration(
