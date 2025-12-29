@@ -9,5 +9,5 @@ class ApiServices {
 
   Future<ContactResponse?> putContact(String id, ContactInput ct) async {}
 
-  Future deleteContact(String id) async {}
+  Future<ContactResponse?> deleteContact(String id) async {}
 }
